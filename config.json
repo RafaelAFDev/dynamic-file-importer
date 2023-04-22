@@ -20,7 +20,7 @@
             ,"delete_file": ""
             ,"move_file": "C:\\Users\\username\\Desktop\\Bases\\Processed\\"
         }
-        ,"base_recursos":{
+        ,"file2":{
             "path": "C:\\Users\\username\\Desktop\\Bases\\*filename*.xlsx"
             ,"sheet_name": "sheetName"
             ,"separator": ""
