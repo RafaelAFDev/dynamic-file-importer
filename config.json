@@ -1,0 +1,43 @@
+{
+    "conn_string": "mssql+pyodbc://<servername>/<dbname>?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
+    ,"files": {
+        "file1": {
+            "path": "C:\\Users\\username\\Desktop\\Bases\\*filename*.csv"
+            ,"sheet_name": ""
+			,"separator": ";"
+            ,"quote_char": "\""
+            ,"encoding": "utf8"
+            ,"skip_header": 0
+            ,"skip_footer": 0
+            ,"fields": {
+                "FileColName1": "TableColName1"
+                ,"FileColName2": "TableColName2"
+                ,"FileColName3": "TableColName3"
+                ,"FileColName4": "TableColName4"
+            }
+            ,"file_required": "yes"
+            ,"target_table": "TableName1"
+            ,"delete_file": ""
+            ,"move_file": "C:\\Users\\username\\Desktop\\Bases\\Processed\\"
+        }
+        ,"file2":{
+            "path": "C:\\Users\\username\\Desktop\\Bases\\*filename*.xlsx"
+            ,"sheet_name": "sheetName"
+            ,"separator": ""
+            ,"quote_char": ""
+            ,"encoding": ""
+            ,"skip_header": 1
+            ,"skip_footer": 3
+            ,"fields": {
+                "FileColName1": "TableColName1"
+                ,"FileColName2": "TableColName2"
+                ,"FileColName3": "TableColName3"
+                ,"FileColName4": "TableColName4"
+            }
+            ,"file_required": "no"
+            ,"target_table": "TableName2"
+            ,"delete_file": "yes"
+            ,"move_file": ""
+        }
+    }
+}
