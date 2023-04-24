@@ -1,12 +1,12 @@
-<h2><b>Dynamic File Importer</b></h2></br>
+<h2><b>Dynamic File Importer</b></h2>
 O Dynamic File Importer é um projeto desenvolvido em Python que permite importar arquivos para bancos de dados de forma dinâmica, utilizando a biblioteca Polars.
 
-Requisitos
+<h3><b>Requisitos</b></h3>
 Antes de utilizar o Dynamic File Importer, certifique-se de que o seu ambiente de desenvolvimento possui:
 
-Python 3.7 (Ou superior)
-Biblioteca Polars
-Biblioteca compatível com o servidor SQL que receberá os dados
+Python 3.7 (Ou superior);
+Biblioteca Polars;
+Biblioteca compatível com o servidor SQL que receberá os dados.
 
 Utilização
 Para utilizar o Dynamic File Handler, siga os seguintes passos:
