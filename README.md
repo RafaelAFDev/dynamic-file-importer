@@ -9,10 +9,9 @@ Biblioteca Polars</br>
 Biblioteca compatível com o servidor SQL que receberá os dados</br>
 
 <h3><b>Utilização</b></h3>
-Para utilizar o Dynamic File Handler, siga os seguintes passos:
+Para utilizar o Dynamic File Handler, siga os seguintes passos:</br>
 
-Baixe o código fonte do projeto</br>
-
+Baixe o código fonte do projeto.</br>
 Com base no arquivo config.json, atualize os parâmetros conforme o desejado. A seguir as descrições de cada parâmetro:
 
 <b>conn_string</b>: String de conexão com o servidor que receberá os dados, padrão Sqlalchemy</br>
@@ -35,11 +34,11 @@ Execute o arquivo main.py informando o caminho para o arquivo config.json, como 
 python main.py --config /caminho/para/o/arquivo/config.json
 
 <h3><b>Arquivos</b></h3>
-O projeto Dynamic File Importer é composto pelos seguintes arquivos:
+O projeto Dynamic File Importer é composto pelos seguintes arquivos:</br>
 
-<b>main.py</b>: arquivo principal do projeto, que importa os arquivos e realiza a inserção no banco de dados.
-<b>config/__init__.py</b>: arquivo responsável por ler o arquivo config.json.
-<b>filehandler/__init__.py</b>: arquivo que contém a classe FileHandler, responsável por realizar a leitura dos arquivos e a inserção no banco de dados.
+<b>main.py</b>: arquivo principal do projeto, que importa os arquivos e realiza a inserção no banco de dados.</br>
+<b>config/__init__.py</b>: arquivo responsável por ler o arquivo config.json.</br>
+<b>filehandler/__init__.py</b>: arquivo que contém a classe FileHandler, responsável por realizar a leitura dos arquivos e a inserção no banco de dados.</br>
 <b>config.json</b>: arquivo que contém as configurações para importação dos arquivos.
 
 <h3><b>Considerações finais</b></h3>
