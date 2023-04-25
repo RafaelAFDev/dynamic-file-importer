@@ -9,7 +9,7 @@ Biblioteca Polars</br>
 Biblioteca compatível com o servidor SQL que receberá os dados</br>
 
 <h3><b>Utilização</b></h3>
-Para utilizar o Dynamic File Handler, siga os seguintes passos:</br>
+Para utilizar o Dynamic File Importer, siga os seguintes passos:</br>
 
 Baixe o código fonte do projeto.</br>
 Com base no arquivo config.json, atualize os parâmetros conforme o desejado. A seguir as descrições de cada parâmetro:
